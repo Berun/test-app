@@ -2,6 +2,13 @@ Oneweekpst::Application.routes.draw do
   devise_for :users
   root "pages#home"
   get "about" => "pages#about"
+  get "test" => "pages#test"
+  get "q1" => "pages#q1"
+  get "q2" => "pages#q2"
+  get "q3" => "pages#q3"
+  get "results" => "pages#results"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

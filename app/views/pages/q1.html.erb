@@ -1,0 +1,13 @@
+<h1>Q1</h1>
+<p>Your first question is...based on what you know, what kind of food should Kosher Franks be serving?</p>
+
+
+<%= radio_button_tag(:age, "hotdog") %>
+<%= label_tag(:age_child, "They should serve hot dogs") %></br>
+<%= radio_button_tag(:age, "burger") %>
+<%= label_tag(:age_adult, "For sure they should serve burgers") %></br>
+<%= radio_button_tag(:age, "vegetarian") %>
+<%= label_tag(:age_vegetarian, "They should serve a range of vegetarian snacks") %></br>
+
+
+</br></br><p>Go to the <%= link_to "next question", q2_path%></p>
